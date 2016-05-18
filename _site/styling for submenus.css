@@ -4,7 +4,7 @@
 
 #list-of-items
 {
-	width: 200px;
+	width: 210px;
 		font-size: 20px;
 		padding: 2px;
 		border-radius: 4px;
@@ -22,12 +22,19 @@ li
 {
 	background-color: maroon;
 margin-bottom: 10px;
+text-align: center;
 	
 }
 
 #list-of-items a{
 	color: white;
+
 	
+}
+
+.outer-skin
+{
+	margin-top: 0px;
 }
 
 
