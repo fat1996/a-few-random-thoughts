@@ -2,9 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="Style for Updated Website Page.css">
-</head>
 
-<body>
 
 <div class="title-container">
 <div class="title1">A 1st year Guide to Computer Science</div>
@@ -15,29 +13,29 @@
  <!This is a simple navigation bar. >
  <div class="Navigation">
 
-<button><a href="#before-starting">Before you start ...</a>
+<button><a href="BYS.html">Before you start ...</a>
 <div class="dropdown-content">
-<a href="#">A Beginner's Guide to UW Residence</a>
-<a href="#">The Social Experience</a>
-<a href="#">Countdown to 1A</a>
-<a href="#">The 'I don't have an acceptance' Syndrome</a>
+<a href="BYS-UW Residence.html">A Beginner's Guide to UW Residence</a>
+<a href="BYS-Social experience.html">The Social Experience</a>
+<a href="BYS-Countdown to 1A.html">Countdown to 1A</a>
+<a href="BYS-No acceptance syndrome.html">The 'I don't have an acceptance' Syndrome</a>
 </div>
 </button>
 
 <button><a href="#">Courses</a>
 <div class="dropdown-content">
-<a href="#">1A</a>
-<a href="#">1B</a>
-<a href="#">Electives</a>
+<a href="{{site.baseurl}}/Courses-1A.html">1A</a>
+<a href="{{site.baseurl}}/Courses-1B.html">1B</a>
+<a href="{{site.baseurl}}/Electives.html">Electives</a>
 </div>
 </button>
 
-<button><a href="#Section3">Co-op</a>
+<button><a href="#">Co-op</a>
 <div class="dropdown-content">
-<a href="#">How it works</a>
-<a href="#">Fixing your resume</a>
-<a href="#">Interviews</a>
-<a href="#">Last Minute Hacks</a>
+<a href="{{site.baseurl}}/Coop-process.html">How it works</a>
+<a href="{{site.baseurl}}/Coop-resume.html">Fixing your resume</a>
+<a href="{{site.baseurl}}/Coop-interviews.html">Interviews</a>
+<a href="{{site.baseurl}}/Coop-hacks.html">Last Minute Hacks</a>
 </div>
 </button>
 
@@ -46,7 +44,10 @@
 <button><a href="#Section5" style="text-decoration:none">Contact me!</a></button>
 
 </div>
+</head>
 <body>
-
+	THIS IS THE DEFAULT LOOK OF ALL YOUR PAGES.
+	{{content}}
 </body>
+
 </html>
