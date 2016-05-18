@@ -17,6 +17,7 @@ li
 		border-radius: 4px;
 		border: 1px solid;
 		background-color: WhiteSmoke;
+
 }
 .title1 {
 font-style:oblique;
@@ -33,18 +34,19 @@ color: white;
 	font-size: 400%;
 	font-family: "Times New Roman";
 	min-width: 100px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	color:white;
 	background-color:maroon;
-	padding-bottom: 5px;
+	padding-bottom: 6px;
 	
 }
 
 .Navigation{
 	display: inline-block;
-	width: 58%;
-margin-left: 21%;
-margin-right: 21%;
+	width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+/*border: 2px solid;*/
 	/*position: fixed;*/
 }
 
@@ -58,15 +60,18 @@ text-align: center;
 		padding: 5px;
 		margin: 8px;
 		border-radius: 4px;
+
+
 }
 
 a  /*adds styling to href's*/
 {
-	color:black;
+	color: maroon;
 	text-decoration: none;
 }
 button:hover .dropdown-content{
 	display: block;
+
 }
 
 
@@ -74,43 +79,33 @@ button:hover .dropdown-content{
 .dropdown-content {
     display: none;
     position: absolute;
+    background-color: maroon;
+
 }
 
 .dropdown-content a {
-	background-color: white;
-    color: black;
-    padding: 12px 16px;
+	background-color: maroon;
+    color: white;
+    padding: 12px;
+    margin:2px;
     text-decoration: none;
     display: block;
     text-align: left;
+    border: 1px solid;
 }
 
-
-/*For the menu's on the left for the sub categories*/
-#before-starting, #Electives, #co-op, #sem-a, #sem-b{
-width: 100%;
-	display: inline-block;
-background-color: white;
-border-radius: 2px;
-border-style: solid;
-text-align: left;
-text-indent: 0px;
-
-}
 
 .title{
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	text-indent: 210px;
-	font-family: "Times New Roman";
-		font-size: 20px;
-		padding: 5px;
-		font-weight: bold;
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+		font-size: 30px;
+		font-style: italic;
+		margin-top: 5px;
+		margin-bottom: 0px;
+		color: maroon;
 }
 
-#c11, #c21, #c31, #c41, #c12, #c22, #c32, #c42, #c13, #c23, #c33, #c43, #c14, #c24, #c34, #c44, #c15, #c25, #c35, #c45{
-	border:2px solid black;
-	margin: 2px;
-}
 
 
 

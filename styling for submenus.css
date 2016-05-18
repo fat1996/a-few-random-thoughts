@@ -1,15 +1,33 @@
 
 /*For the menu's on the left for the sub categories*/
+
+
 #list-of-items
 {
 	width: 200px;
-	font-family: "Times New Roman";
 		font-size: 20px;
-		padding: 5px;
+		padding: 2px;
 		border-radius: 4px;
-		border:2px solid;
+		border:0.5px solid maroon;
 		float: left;
+		
 		/*position: fixed;*/  /*DD THIS PART. WILL BE HELPFUL*/
+}
+
+.outer-skin .nav-menu{
+	position: relative;
+}
+
+li
+{
+	background-color: maroon;
+margin-bottom: 10px;
+	
+}
+
+#list-of-items a{
+	color: white;
+	
 }
 
 
