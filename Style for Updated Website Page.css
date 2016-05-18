@@ -20,9 +20,10 @@ li
 }
 .title1 {
 font-style:oblique;
-background-color:white;
+background-color:maroon;
 text-align: center;
 font-size: 50px;
+color: white;
 
 }
 .title2{
@@ -33,8 +34,8 @@ font-size: 50px;
 	font-family: "Times New Roman";
 	min-width: 100px;
 	margin-bottom: 25px;
-	color:black;
-	background-color:White;
+	color:white;
+	background-color:maroon;
 	
 }
 
