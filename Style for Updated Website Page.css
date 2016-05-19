@@ -260,11 +260,23 @@
 
 
 
-
+#trademark{
+	/*border: 2px solid;*/
+	text-indent: 625px;
+}
 .genericon{
 	font-size: 60px;
 }
 
+#logo{
+	display: inline-block;
+	/*border:2px solid;*/
+	width: 230px;
+	margin-left: 560px;
+}
+#logo li{
+	float: left;
+}
 
 
 body{
