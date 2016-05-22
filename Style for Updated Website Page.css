@@ -321,6 +321,7 @@ color: white;
 	color:white;
 	background-color:maroon;
 	padding-bottom: 6px;
+	border-bottom: 2px solid black;
 	
 }
 
@@ -330,9 +331,9 @@ color: white;
 margin-left: 15%;
 /*border: 2px solid;*/
 	/*position: fixed;*/
-	border-left: 1px solid maroon;
+	/*border-left: 1px solid maroon;
 	border-right: 1px solid maroon;
-	border-top: 1px solid maroon;
+	border-top: 1px solid maroon; */
 
 }
 
@@ -351,7 +352,6 @@ text-align: center;
 		margin: 8px;
 		border-radius: 4px;
 		align-items: center;
-
 
 
 }
