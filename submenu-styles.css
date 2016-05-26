@@ -1,0 +1,27 @@
+#list-of-items
+{
+	width: 210px;
+		font-size: 20px;
+		padding: 2px;
+		border-radius: 4px;
+		border:0.5px solid maroon;
+		float: left;
+		margin-left: 30px;
+		/*position: fixed;*/  /*DD THIS PART. WILL BE HELPFUL*/
+}
+
+
+li
+{
+	background-color: maroon;
+margin-bottom: 2px;
+text-align: center;
+/*border: 2px solid white;*/
+	
+}
+
+#list-of-items a{
+	color: white;
+
+	
+}
