@@ -260,55 +260,6 @@
 
 
 
-/*adds these styles to all buttons.*/
-button{
-text-align: center;
-  font-family: Linux Libertine;
-    font-size: 21px;
-    /*padding: 5px;
-    margin: 8px; */
-    border-radius: 4px;
-    align-items: center;
-}
-
-a  /*adds styling to href's*/
-{
-  color: maroon;
-  text-decoration: none;
-}
-button:hover .dropdown-content{
-  display: block;
-
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: maroon;
-
-}
-.dropdown-content a {
-  background-color: maroon;
-    color: white;
-    /*padding: 5px;
-    margin:2px; */
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    border: 1px solid;
-}
-nav{
-  display: inline-block;
-  width: 80%;
-margin-left: 14%;
-margin-top:20px;
-/*border: 2px solid;*/
-  /*position: fixed;*/
-  /*border-left: 1px solid maroon;
-  border-right: 1px solid maroon;
-  border-top: 1px solid maroon; */
-  margin-bottom: 15px;
-
-}
 
 
 .title{
@@ -350,11 +301,103 @@ padding-top: 8px;
 
 
 
-body{
-  /*height: 700px;*/
-  /*border: 2px solid black;*/
+
+
+
+a{
+  font-size: 22px;
+}
+
+nav{
+  /*border: 2px solid maroon;*/
+  height: 70px;
+background-color: WhiteSmoke;
 
 }
+
+ul{
+  list-style-type: none;
+  /*border: 2px solid;*/
+  
+}
+
+
+ul#nav-menu li{
+position: relative; 
+float: left; 
+border-radius: 4px;
+/*border: 2px solid black;*/
+text-align: center;
+margin-top: 10px;
+} 
+
+ul#nav-menu a{
+  text-decoration: none;
+  /*display: block;*/
+  border-radius: 4px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+text-align: center;
+/*border: 2px solid white;*/
+}
+
+ul#nav-menu li:hover > a{
+  background-color: #ffa64d;
+}
+
+ul#nav-menu li:hover a:hover{
+  background-color: #ffa64d;
+}
+
+ul#nav-menu ul.sub-menu1, ul.sub-menu21{
+  display: none;    /*change this to none for final menu*/
+  position: absolute;
+
+}
+
+.sub-menu1 li{
+background-color: maroon;
+
+/*DON'T TOUCH THESE MEASUREMENTS*/
+width: 120px;
+margin-left: 30px;
+/*margin-right: 70px;*/
+
+
+/********************************/
+line-height: 25px;
+margin-top: 2px;
+padding: 5px;
+}
+
+
+.sub-menu21 li{
+  position: absolute;
+  background-color: maroon;
+  color: white;
+
+}
+
+/*dont add border here*/
+.sub-menu1 a, .sub-menu21 a{
+  color: white;
+  
+}
+
+ul#nav-menu li:hover .sub-menu1{     /*when you hover over a list item in the main nav menu(the 5 big buttons), all the dropdown menu's will be displayed)*/
+  display: block;
+
+}
+
+ul#nav-menu .sub-menu1 li:hover .sub-menu21{   /*when you hover over a list item in sub-menu1, its submenu's will be displayed */
+  display: block;
+  top: 0;
+  /*left: 53px;*/
+  margin-left: 60px;
+}
+
+
+
+
 #textbox{
   /*border: 2px solid black;*/
   margin-bottom: 30px;
@@ -378,11 +421,8 @@ footer{
   padding: 10px;
 }
 
-ul{
-  list-style-type: none;
-}
 
-li{
+footer li{
   float: left;
 }
 
