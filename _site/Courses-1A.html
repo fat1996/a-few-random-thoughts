@@ -3,6 +3,24 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="Style for Updated Website Page.css">
 <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+      jQuery(document).ready(function(){
+var navoffset=jQuery("nav").offset().top;
+
+jQuery(window).scroll(function(){
+	var scrollPos = jQuery(window).scrollTop();
+
+
+	if(scrollPos >= navoffset){
+jQuery("nav").addClass("fixed");
+	} else{
+jQuery("nav").removeClass("fixed");
+	}
+});
+});
+</script>
 
 <div class="title-container">
 <div class="title1">A 1st year Guide to Computer Science</div>
@@ -18,57 +36,55 @@
 
 <nav>
 <ul id="nav-menu">
-<li style="width: 250px;margin-left: 5px;"><a href="#" style="color: maroon;line-height: 45px;">Back to Homepage</a></li>
+<li style="width: 250px;margin-left: 35px;"><a href="Website Main Page.html" style="color: maroon;line-height: 45px;">Back to Homepage</a></li>
 
-<li style="width: 250px;margin-left: 5px;"><a href="#" style="color: maroon;line-height: 45px">Before you start ...</a>
+<li style="width: 250px;margin-left: 35px;"><a href="/BYS-Intro.html" style="color: maroon;line-height: 45px">Before you start ...</a>
 <ul class="sub-menu1">
-<li style=""><a href="#">UW Residence 101</a></li>
-<li style=""><a href="#">The Social Experience</a></li>
-<li style=""><a href="#">Countdown to 1A</a></li>
-<li style=""><a href="#">The 'I don't have an acceptance' Syndrome</a></li>
+<li style=""><a href="/BYS-UW Residence.html">UW Residence 101</a></li>
+<li style=""><a href="/BYS-Social experience.html">The Social Experience</a></li>
+<li style=""><a href="/BYS-Countdown to 1A.html">Countdown to 1A</a></li>
+<li style=""><a href="/BYS-No acceptance syndrome.html">The 'I don't have an acceptance' Syndrome</a></li>
 </ul>
 </li>
 
-<li style="width: 250px;margin-left: 5px;"><a href="#" style="color: maroon;line-height: 45px">Courses</a>
+<li style="width: 250px;margin-left: 35px;"><a href="/Courses.html" style="color: maroon;line-height: 45px">Courses</a>
 <ul class="sub-menu1">
-	<li><a href="#">1A
+	<li>1A
 <ul class="sub-menu21">
-<li><a href="#">MATH 135</a></li>
-<li><a href="#">MATH 137</a></li>
-<li><a href="#">CS 135</a></li>
+<li><a href="posts/Math135.html">MATH 135</a></li>
+<li><a href="/Math137.html">MATH 137</a></li>
+<li><a href="/CS135.html">CS 135</a></li>
 </ul>
-	</a></li>
+	</li>
 
-	<li><a href="#">1B
+	<li style="font-family: Georgia, Times, "Times New Roman", serif;color: white;">1B
 	<ul class="sub-menu21">
-	<li><a href="#">MATH 136</a></li>
-	<li><a href="#">MATH 138</a></li>
-	<li><a href="#">CS 136</a></li>
+	<li><a href="/Math136.html">MATH 136</a></li>
+	<li><a href="/MATH138.html">MATH 138</a></li>
+	<li><a href="/CS136.html">CS 136</a></li>
 	</ul>
-	</a></li>
+	</li>
 
-	<li><a href="#">Electives
+	<li>Electives
 	<ul class="sub-menu21">
-		<li><a href="#">SPCOM 223</a></li>
-		<li><a href="#">PHYS 111</a></li>
-		<li><a href="#">ECON 101</a></li>
-		<li><a href="#">MTHEL 131</a></li>
+		<li><a href="/SPCOM223.html">SPCOM 223</a></li>
+		<li><a href="/PHYS111.html">PHYS 111</a></li>
+		<li><a href="/ECON101.html">ECON 101</a></li>
+		<li><a href="/MTHE131.html">MTHEL 131</a></li>
 	</ul>
-	</a></li>
+	</li>
 </ul>
 </li>
 
-<li style="width: 250px;margin-left: 5px;"><a href="#" style="color: maroon;line-height: 45px">Co-op</a>
+<li style="width: 250px;margin-left: 35px;"><a href="#" style="color: maroon;line-height: 45px">Co-op</a>
 <ul class="sub-menu1">
-<li><a href="#">How it Works</a></li>
-<li><a href="#">Fixing your Resume</a></li>
-<li><a href="#">Interviews</a></li>
-<li><a href="#">Last Minute Hacks</a></li>
+<li><a href="/Coop-process">How it Works</a></li>
+<li><a href="/Coop-resume">Fixing your Resume</a></li>
+<li><a href="/Coop-interviews">Interviews</a></li>
+<li><a href="/Coop-hacks">Last Minute Hacks</a></li>
 </ul>
 </li>
 
-
-<li style="width: 250px;margin-left: 5px;"><a href="#" style="color: maroon;line-height: 45px">Helpful Links</a></li>
 </nav>
 
 </head>
@@ -123,16 +139,20 @@ Fair warning: Keep up with the assignments. You may be able to survive without d
 <footer>
 
 
+<p style="font-size: 50px;color: white;margin-left: 633px;margin-bottom: 0px;padding: 0px;">&#8631;</p> 
+
 <div id="images">
+
 <ul>
-<li><span class="genericon genericon-facebook-alt"></span></li>
-<li><span class="genericon genericon-github"></span></li>
-<li><span class="genericon genericon-linkedin"></span></li>
+<li><a href="https://www.facebook.com/fatima.taj.94"><span class="genericon genericon-facebook-alt"></span></a></li>
+<li><a href="https://github.com/fat1996"><span class="genericon genericon-github"></span></a></li>
+<li><a href="https://ca.linkedin.com/in/fatima-taj-37363a109"><span class="genericon genericon-linkedin"></span></a></li>
 </ul>
 </div>
 
 
 <div id="text">
+
 Copyright @ Fatima Taj 2016</div>
 
 

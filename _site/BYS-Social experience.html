@@ -3,6 +3,24 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="Style for Updated Website Page.css">
 <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+      jQuery(document).ready(function(){
+var navoffset=jQuery("nav").offset().top;
+
+jQuery(window).scroll(function(){
+	var scrollPos = jQuery(window).scrollTop();
+
+
+	if(scrollPos >= navoffset){
+jQuery("nav").addClass("fixed");
+	} else{
+jQuery("nav").removeClass("fixed");
+	}
+});
+});
+</script>
 
 <div class="title-container">
 <div class="title1">A 1st year Guide to Computer Science</div>
@@ -18,75 +36,73 @@
 
 <nav>
 <ul id="nav-menu">
-<li style="width: 250px;margin-left: 5px;"><a href="#" style="color: maroon;line-height: 45px;">Back to Homepage</a></li>
+<li style="width: 250px;margin-left: 35px;"><a href="Website Main Page.html" style="color: maroon;line-height: 45px;">Back to Homepage</a></li>
 
-<li style="width: 250px;margin-left: 5px;"><a href="#" style="color: maroon;line-height: 45px">Before you start ...</a>
+<li style="width: 250px;margin-left: 35px;"><a href="/BYS-Intro.html" style="color: maroon;line-height: 45px">Before you start ...</a>
 <ul class="sub-menu1">
-<li style=""><a href="#">UW Residence 101</a></li>
-<li style=""><a href="#">The Social Experience</a></li>
-<li style=""><a href="#">Countdown to 1A</a></li>
-<li style=""><a href="#">The 'I don't have an acceptance' Syndrome</a></li>
+<li style=""><a href="/BYS-UW Residence.html">UW Residence 101</a></li>
+<li style=""><a href="/BYS-Social experience.html">The Social Experience</a></li>
+<li style=""><a href="/BYS-Countdown to 1A.html">Countdown to 1A</a></li>
+<li style=""><a href="/BYS-No acceptance syndrome.html">The 'I don't have an acceptance' Syndrome</a></li>
 </ul>
 </li>
 
-<li style="width: 250px;margin-left: 5px;"><a href="#" style="color: maroon;line-height: 45px">Courses</a>
+<li style="width: 250px;margin-left: 35px;"><a href="/Courses.html" style="color: maroon;line-height: 45px">Courses</a>
 <ul class="sub-menu1">
-	<li><a href="#">1A
+	<li>1A
 <ul class="sub-menu21">
-<li><a href="#">MATH 135</a></li>
-<li><a href="#">MATH 137</a></li>
-<li><a href="#">CS 135</a></li>
+<li><a href="posts/Math135.html">MATH 135</a></li>
+<li><a href="/Math137.html">MATH 137</a></li>
+<li><a href="/CS135.html">CS 135</a></li>
 </ul>
-	</a></li>
+	</li>
 
-	<li><a href="#">1B
+	<li style="font-family: Georgia, Times, "Times New Roman", serif;color: white;">1B
 	<ul class="sub-menu21">
-	<li><a href="#">MATH 136</a></li>
-	<li><a href="#">MATH 138</a></li>
-	<li><a href="#">CS 136</a></li>
+	<li><a href="/Math136.html">MATH 136</a></li>
+	<li><a href="/MATH138.html">MATH 138</a></li>
+	<li><a href="/CS136.html">CS 136</a></li>
 	</ul>
-	</a></li>
+	</li>
 
-	<li><a href="#">Electives
+	<li>Electives
 	<ul class="sub-menu21">
-		<li><a href="#">SPCOM 223</a></li>
-		<li><a href="#">PHYS 111</a></li>
-		<li><a href="#">ECON 101</a></li>
-		<li><a href="#">MTHEL 131</a></li>
+		<li><a href="/SPCOM223.html">SPCOM 223</a></li>
+		<li><a href="/PHYS111.html">PHYS 111</a></li>
+		<li><a href="/ECON101.html">ECON 101</a></li>
+		<li><a href="/MTHE131.html">MTHEL 131</a></li>
 	</ul>
-	</a></li>
+	</li>
 </ul>
 </li>
 
-<li style="width: 250px;margin-left: 5px;"><a href="#" style="color: maroon;line-height: 45px">Co-op</a>
+<li style="width: 250px;margin-left: 35px;"><a href="#" style="color: maroon;line-height: 45px">Co-op</a>
 <ul class="sub-menu1">
-<li><a href="#">How it Works</a></li>
-<li><a href="#">Fixing your Resume</a></li>
-<li><a href="#">Interviews</a></li>
-<li><a href="#">Last Minute Hacks</a></li>
+<li><a href="/Coop-process">How it Works</a></li>
+<li><a href="/Coop-resume">Fixing your Resume</a></li>
+<li><a href="/Coop-interviews">Interviews</a></li>
+<li><a href="/Coop-hacks">Last Minute Hacks</a></li>
 </ul>
 </li>
 
-
-<li style="width: 250px;margin-left: 5px;"><a href="#" style="color: maroon;line-height: 45px">Helpful Links</a></li>
 </nav>
 
 </head>
 
 <body>
 
-<div id="textbox">     The Social Experience
+<div id="textbox">     <p style="font-style: italic;font-size: 25px;">&#10154; The Social Experience</p>
 	During the few initial weeks here, you might feel as if you don't exactly have a handle on things. 
 That's very normal.
-Trust me.
-It's how roughly all of us felt too. You'll feel overwhelmed by the number of assignments you have to submit and the looming threat of midterms will prove to be quite intimidating. And don't even get me started on midterms. The engineering faculty has their midterms scheduled to be over within a week, more commonly known as 'hell week'. But the mathies have it worse, tbh. Our midterms are spread out over approximately a month, with assignment submissions during the week. Needless to say, that was the least enjoyable October of the past 17 years of my life. Our day literally entailed attending classes, giving the midterm and rushing back to work on assignments due during the week. But once you're done midterms, things will get better. 
-You'll fall into a pattern and learn to organize your week according to your assignment submissions. Keep in mind that when I say 'things will get better', I'm not saying that your stream of tears will conjure a fairy god mother who'll magically take care of all your troubles. What I mean is that by then, you'll have a fairly better understanding of what is expected of you and you'll learn to train yourself accordingly.
+Trust me.<br>
+It's how roughly all of us felt too. You'll feel overwhelmed by the number of assignments you have to submit and the looming threat of midterms will prove to be quite intimidating. Don't even get me started on midterms. The engineering faculty has their midterms scheduled to be over within a week, more commonly known as 'hell week'. But the mathies have it worse, tbh. Our midterms are spread out over approximately a month, with assignment submissions during the week. Needless to say, that was the least enjoyable October of the past 17 years of my life. Our day literally entailed attending classes, giving the midterm and rushing back to work on assignments due during the week. But once you're done midterms, things will get better. <br>
+You'll fall into a pattern and learn to organize your week according to your assignment submissions. Keep in mind that when I say 'things will get better', I'm not saying that your stream of tears will conjure a fairy god mother who'll magically take care of all your troubles. What I mean is that by then, you'll have a fairly better understanding of what is expected of you and you'll learn to train yourself accordingly.<br><br>
 
-It's very easy to fall into depression during the 1st semester of university.
- In my experience, this is due to a number of reasons.
-Coming from a high school where you probably would've been the top of your class (which is a pretty safe assumption to make, since you're in Math at Waterloo), you will now find yourself surrounded by people who are way smarter. I had this nasty habit of comparing myself with my peers. If you're anything like me, you might be at a high risk of feeling unsatisfied with yourself all the time. Don't compare yourself with others. It's a cliche, yes, but it's true. The more you compare yourself with others, the less satisfied you will be with your accomplishments and the unhappier you'll be. 
+It's very easy to fall into depression during 1st year of university.
+ In my opinion, this is due to a number of reasons.
+Coming from a high school where you probably would've been the top of your class (which is a pretty safe assumption to make, since you're in Math at Waterloo), you will now find yourself surrounded by people who are way smarter. I had this nasty habit of comparing myself with my peers. If you're anything like me, you might be at a high risk of feeling unsatisfied with yourself all the time. Don't compare yourself with others. It's a cliche, yes, but it's true. The more you compare yourself with others, the less satisfied you will be with your accomplishments and the unhappier you'll be. <br>
 Everyone comes to university with a different set of credentials. Remember that these credentials were examined by Waterloo's admission committee. They found you worthy enough of being a part of their program.
-Learn to be proud of that.
+Learn to be proud of that.<br>
 If you could work your way into Waterloo, you'll surely figure a way out too.
    </div>
 	
@@ -94,16 +110,20 @@ If you could work your way into Waterloo, you'll surely figure a way out too.
 <footer>
 
 
+<p style="font-size: 50px;color: white;margin-left: 633px;margin-bottom: 0px;padding: 0px;">&#8631;</p> 
+
 <div id="images">
+
 <ul>
-<li><span class="genericon genericon-facebook-alt"></span></li>
-<li><span class="genericon genericon-github"></span></li>
-<li><span class="genericon genericon-linkedin"></span></li>
+<li><a href="https://www.facebook.com/fatima.taj.94"><span class="genericon genericon-facebook-alt"></span></a></li>
+<li><a href="https://github.com/fat1996"><span class="genericon genericon-github"></span></a></li>
+<li><a href="https://ca.linkedin.com/in/fatima-taj-37363a109"><span class="genericon genericon-linkedin"></span></a></li>
 </ul>
 </div>
 
 
 <div id="text">
+
 Copyright @ Fatima Taj 2016</div>
 
 

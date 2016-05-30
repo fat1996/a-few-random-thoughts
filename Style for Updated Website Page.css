@@ -292,6 +292,7 @@ padding-top: 8px;
   color:white;
   background-color:maroon;
   padding-bottom: 8px;
+  height: 140px;
   
 }
 .title-container{
@@ -305,7 +306,7 @@ padding-top: 8px;
 
 
 a{
-  font-size: 22px;
+  font-size: 21px;
 }
 
 nav{
@@ -314,6 +315,12 @@ nav{
 background-color: WhiteSmoke;
 
 }
+.fixed{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 
 ul{
   list-style-type: none;
@@ -329,6 +336,9 @@ border-radius: 4px;
 /*border: 2px solid black;*/
 text-align: center;
 margin-top: 10px;
+font-family: Georgia, Times, "Times New Roman", serif;
+color: white;
+font-size: 21px;
 } 
 
 ul#nav-menu a{
@@ -414,11 +424,9 @@ ul#nav-menu .sub-menu1 li:hover .sub-menu21{   /*when you hover over a list item
 
 
 footer{
-  border: 2px solid black;
   /*height: 150px;*/
   background-color: maroon;
   margin-bottom: 0px;
-  padding: 10px;
 }
 
 
@@ -429,13 +437,13 @@ footer li{
 .genericon{
   font-size: 45px;
   padding: 5px;
+  color: white;
 }
 
 #images{
   width: 300px;
-  /*border: 2px solid;*/
-  height: 100px;
-  margin-left: 550px;
+  height: 90px;
+  margin-left: 530px;
   
 }
 
@@ -444,6 +452,8 @@ footer li{
   text-align: center;
   color: white;
   font-size: 20px;
+  font-family: Linux Libertine;
+  padding-bottom: 4px;
 }
 
 
