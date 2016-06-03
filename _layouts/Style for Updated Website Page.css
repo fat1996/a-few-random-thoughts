@@ -273,30 +273,9 @@
     color: maroon;
 }
 
-.title1 {
-font-style:oblique;
-background-color:maroon;
-text-align: center;
-font-size: 50px;
-color: white;
-padding-top: 8px;
-
-}
-.title2{
-  line-height: 100%;
-  text-align: center;
-  font-weight:bold;
-  font-size: 400%;
-  font-family: "Times New Roman";
-  min-width: 100px;
-  color:white;
-  background-color:maroon;
-  padding-bottom: 8px;
-  height: 140px;
-  
-}
 .title-container{
   border: 2px solid black;
+  background-color: maroon;
 }
 
 
@@ -427,6 +406,7 @@ footer{
   /*height: 150px;*/
   background-color: maroon;
   margin-bottom: 0px;
+  width: 100%;
 }
 
 
