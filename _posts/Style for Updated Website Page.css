@@ -352,7 +352,7 @@ ul.navmenu li{
   color: yellow;
 }
 ul.navmenu li:hover > a{
-  background-color: #CFC;
+  background-color: FF9933;
 }
 ul.navmenu a{
   text-decoration: none;
