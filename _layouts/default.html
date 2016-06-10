@@ -21,27 +21,36 @@ jQuery("nav").removeClass("fixed");
 	}
 });
 });
+
+
+jQuery(document).ready(function(){
+jQuery(".handle").click(function(){
+jQuery(".navmenu").slideToggle();
+});
+});
 </script>
 
 <div class="title-container">
-<div class="title1">A 1st year Guide to Computer Science</div>
-<div class="title2"><small>At the</small><br><b>University of Waterloo</br></b></div>
-</div>
+<div class="title1">A 1<sup>st</sup> year Guide to Computer Science</div>
+<div class="title2">At the</div>
+<div class="title3"><b>University of Waterloo</b></div></div>
 
 
  <!This is a simple navigation bar. >
  {% include navbar.html %}
 
+
 </head>
 
 <body>
 
-<div id="textbox">     {{content}}   </div>
+<div class="container">     {{content}}   </div>
 	
-
+<div class="footer">
 <footer>
 {% include footer.html %}
 </footer>
+</div>
 
 </body>
 
